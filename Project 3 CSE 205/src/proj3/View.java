@@ -251,7 +251,9 @@ public class View extends JFrame implements ActionListener
   */
   private void displayStudent(Student pStudent)
   {
-    for (int i=0; i<Main.getNumHomeworks(); i++)
+    mStudentName.setText(pStudent.getFullName());
+    
+	for (int i=0; i<Main.getNumHomeworks(); i++)
     {
       int hw = pStudent.getHomework(i);
       
