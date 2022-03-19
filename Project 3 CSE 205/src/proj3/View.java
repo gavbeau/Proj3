@@ -125,7 +125,7 @@ public class View extends JFrame implements ActionListener
     panelMain.add(panelButtons);
 
     //title of the View
-    setTitle("Grade Book for CSE 205 Students");
+    setTitle("Grade Book");
 
     // Set the size of the View 
     setSize(FRAME_WIDTH, FRAME_HEIGHT);
